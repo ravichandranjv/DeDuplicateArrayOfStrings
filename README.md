@@ -28,12 +28,12 @@ var deduplicatedarray=deDupe.DeDuplicateArrayOfStrings(duplicatearray)
 var duplicatearray1=['en','es','en','fr','es','en','en','fr','fr']
     var duplicatearray2=['Spectre','Pirates of the Caribbean','Spectre','Avatar','Avatar']
     var duplicatearray3=['Sam Worthington','Denzel Washington','Sam Worthington','Sigourney Weaver','Denzel Washington','Sam Worthington']
-    var result=deDupe.RemoveDuplicateValuesIn3ArraysAndMerge(arr1,arr2,arr3)
+    var result=deDupe.RemoveDuplicateValuesIn3ArraysAndMerge(duplicatearray1,duplicatearray2,duplicatearray3)
 
 // Method 3
 var duplicatearray1=['en','es','en','fr','es','en','en','fr','fr']
     var duplicatearray2=['Spectre','Pirates of the Caribbean','Spectre','Avatar','Avatar']
-    var result=deDupe.RemoveDuplicateValuesIn2ArraysAndMerge(arr1,arr2)
+    var result=deDupe.RemoveDuplicateValuesIn2ArraysAndMerge(duplicatearray1,duplicatearray2)
 ```
 
 ##Install with [npm](http://npmjs.com)
@@ -44,8 +44,8 @@ v1.0.8+ is plain js
 $ npm intall --save-dev deduplicatearrayofstrings
 ```
 ![Test Result](https://github.com/ravichandranjv/DeDuplicateArrayOfStrings/blob/master/dedupetest-pass.GIF)
-##Author: **Ravichandran JV**
-*License: ISC*
-
 
 ![Usage](https://github.com/ravichandranjv/DeDuplicateArrayOfStrings/blob/master/usage.GIF)
+
+##Author: **Ravichandran JV**
+*License: ISC*
